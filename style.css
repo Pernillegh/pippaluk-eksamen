@@ -1,0 +1,330 @@
+/*GENERELLE REGLER*/
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: 'open sans', sans-serif;
+    background-color: #faf7ef;
+}
+
+h1{
+    font-family: 'Patua One', cursive;
+}
+
+.test-side p{
+    padding: 10%;
+    font-size: 26px;
+}
+
+.test-side a{
+    color: royalblue;
+}
+
+/* menu start */
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    width: 350px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+
+/* online butik start */
+
+.online-butik-intro{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
+    font-size: 16px;
+    padding-bottom: 2%;
+}
+
+#se-alt{
+    color: blue;
+}
+
+.kategorier{
+    text-align: center;
+     font-size: 28px;
+
+}
+
+.kategori-img{
+
+    width: 69%;
+    padding-bottom: 5%;
+}
+
+
+.kategori-knapper{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* start på Hobby side */
+
+.smaa-knapper{
+    padding: 1%;
+    padding-top: 2%;
+}
+
+.lille-knap{
+    width: 12%;
+}
+
+.kurv{
+    width: 6%;
+}
+
+.hobby-overskrift{
+    text-align: center;
+    font-size: 28px;
+}
+
+.hobby {
+justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.garn{
+    width: 50%;
+    padding: 2%;
+    padding-top: 7%;
+}
+
+.garn-box p{
+    font-size: 10px;
+}
+
+.garn-box {
+    margin: 1%;
+width: 46%;
+    height: 210px;
+border: 2px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+
+}
+
+.garn-box a{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+/* hobby side slut */
+
+
+/* eksempel på en produkt side */
+
+
+
+.garn-overskrift{
+    text-align: center;
+    font-size: 28px;
+}
+
+.produkt-side{
+        display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sort-garn{
+    width: 32%;
+
+}
+
+.produkt-tekst{
+   padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.knap{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: rosybrown;
+    border: 5px;
+    border-color: red;
+    margin-bottom: 2%;
+
+}
+
+/* gør at knapperne "skifter farve" når man hover over dem*/
+
+.knap:hover {
+    opacity: 80%;
+}
+
+.pris{
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+/* Mobil footer */
+
+footer{
+    background-color: #62676a;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+
+}
+
+footer h4{
+    font-size: 11px;
+}
+
+footer p{
+    color: black;
+    font-size: 9px;
+}
+
+
+footer img{
+    width: 27%;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+
+/* online butik start */
+
+.kategori-knapper a{
+
+    width: 33%;
+    flex-direction: row;
+}
+    
+/* gør at knapperne "skifter farve" når man hover over dem, det hjælper med at se hvilken en man trykker på */ 
+    
+    .kategori-knapper a:hover {
+    opacity: 80%;
+}
+
+/* slut på online butik */
+
+
+/* start på hobby */
+
+    .smaa-knapper{
+        width: 100%;
+    }
+    .lille-knap{
+        padding: 0.4%;
+    }
+ 
+/* gør at knapperne "skifter farve" når man hover over dem, det hjælper med at se hvilken en man trykker på */     
+    
+    .smaa-knapper a:hover {
+    opacity: 80%;
+}
+
+    .garn{
+        width: 60%;
+    }
+
+    .garn-box {
+width: 22%;
+    height: 400px;
+
+}
+    .garn-box p{
+        font-size: 16px;
+    }
+
+
+/* eksempel på en produkt side */
+
+.garn-overskrift{
+   padding-top: 3%;
+    font-size: 48px;
+}
+
+.produkt-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sort-garn{
+    width: 20%;
+    padding-bottom: 5%;
+}
+
+.produkt-tekst{
+    width: 50%;
+    align-self: center;
+    }
+    
+    .pris{
+        font-size: 40px;
+    }
+
+    /* start på footer */
+    /*LÅNT FOOTER fra webdoc LINK TIL SIDEN*/
+
+
+    footer{
+        height: 180px;
+        width: 100%;
+        
+
+    }
+
+    footer img{
+        width: 13%;
+        margin-right: 2%;
+    }
+
+    footer div{
+        width: 20%;
+         margin-left: 2%;
+
+    }
+
+    footer h4{
+        font-size: 17px;
+        font-family: 'Patua One', cursive;
+    }
+
+    footer p{
+        font-size: 13px;
+    }
+
+}
